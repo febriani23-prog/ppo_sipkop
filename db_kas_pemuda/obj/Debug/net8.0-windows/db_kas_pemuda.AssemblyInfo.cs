@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("db_kas_pemuda")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e6154c7a8ccabf3a76f0c2edfe44cf00bcd9f49")]
 [assembly: System.Reflection.AssemblyProductAttribute("db_kas_pemuda")]
 [assembly: System.Reflection.AssemblyTitleAttribute("db_kas_pemuda")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
