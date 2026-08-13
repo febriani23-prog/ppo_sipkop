@@ -83,9 +83,39 @@ namespace db_kas_pemuda.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icon_anggota {
+            get {
+                object obj = ResourceManager.GetObject("icon_anggota", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_dashboard_home {
             get {
                 object obj = ResourceManager.GetObject("icon_dashboard_home", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_logout_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("icon_logout_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_pemasukan_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("icon_pemasukan_24x24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -33,12 +33,12 @@
             label3 = new Label();
             label4 = new Label();
             gbLogin = new GroupBox();
-            pictureBox1 = new PictureBox();
-            btnLog = new Button();
-            btnKel = new Button();
-            txtUser = new TextBox();
-            txtPw = new TextBox();
             cmbRol = new ComboBox();
+            txtPw = new TextBox();
+            txtUser = new TextBox();
+            btnKel = new Button();
+            btnLog = new Button();
+            pictureBox1 = new PictureBox();
             gbLogin.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
@@ -84,7 +84,7 @@
             // 
             // gbLogin
             // 
-            gbLogin.BackColor = SystemColors.Control;
+            gbLogin.BackColor = SystemColors.ButtonHighlight;
             gbLogin.Controls.Add(cmbRol);
             gbLogin.Controls.Add(txtPw);
             gbLogin.Controls.Add(txtUser);
@@ -101,25 +101,28 @@
             gbLogin.TabStop = false;
             gbLogin.Text = "Login";
             // 
-            // pictureBox1
+            // cmbRol
             // 
-            pictureBox1.Image = Properties.Resources.ChatGPT_Image_9_Agu_2026__13_55_19;
-            pictureBox1.Location = new Point(79, 78);
-            pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(150, 103);
-            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBox1.TabIndex = 5;
-            pictureBox1.TabStop = false;
+            cmbRol.FormattingEnabled = true;
+            cmbRol.Items.AddRange(new object[] { "Admin", "Bendahara" });
+            cmbRol.Location = new Point(97, 144);
+            cmbRol.Name = "cmbRol";
+            cmbRol.Size = new Size(196, 25);
+            cmbRol.TabIndex = 8;
             // 
-            // btnLog
+            // txtPw
             // 
-            btnLog.BackColor = Color.DodgerBlue;
-            btnLog.Location = new Point(29, 199);
-            btnLog.Name = "btnLog";
-            btnLog.Size = new Size(91, 30);
-            btnLog.TabIndex = 4;
-            btnLog.Text = "LOGIN";
-            btnLog.UseVisualStyleBackColor = false;
+            txtPw.Location = new Point(97, 91);
+            txtPw.Name = "txtPw";
+            txtPw.Size = new Size(196, 25);
+            txtPw.TabIndex = 7;
+            // 
+            // txtUser
+            // 
+            txtUser.Location = new Point(95, 40);
+            txtUser.Name = "txtUser";
+            txtUser.Size = new Size(198, 25);
+            txtUser.TabIndex = 6;
             // 
             // btnKel
             // 
@@ -131,33 +134,31 @@
             btnKel.Text = "KELUAR";
             btnKel.UseVisualStyleBackColor = false;
             // 
-            // txtUser
+            // btnLog
             // 
-            txtUser.Location = new Point(95, 40);
-            txtUser.Name = "txtUser";
-            txtUser.Size = new Size(198, 25);
-            txtUser.TabIndex = 6;
+            btnLog.BackColor = Color.DodgerBlue;
+            btnLog.Location = new Point(29, 199);
+            btnLog.Name = "btnLog";
+            btnLog.Size = new Size(91, 30);
+            btnLog.TabIndex = 4;
+            btnLog.Text = "LOGIN";
+            btnLog.UseVisualStyleBackColor = false;
             // 
-            // txtPw
+            // pictureBox1
             // 
-            txtPw.Location = new Point(97, 91);
-            txtPw.Name = "txtPw";
-            txtPw.Size = new Size(196, 25);
-            txtPw.TabIndex = 7;
-            // 
-            // cmbRol
-            // 
-            cmbRol.FormattingEnabled = true;
-            cmbRol.Items.AddRange(new object[] { "Admin", "Bendahara" });
-            cmbRol.Location = new Point(97, 144);
-            cmbRol.Name = "cmbRol";
-            cmbRol.Size = new Size(196, 25);
-            cmbRol.TabIndex = 8;
+            pictureBox1.Image = Properties.Resources.ChatGPT_Image_9_Agu_2026__13_55_19;
+            pictureBox1.Location = new Point(79, 78);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(150, 103);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 5;
+            pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(800, 398);
             Controls.Add(pictureBox1);
             Controls.Add(gbLogin);

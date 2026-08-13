@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MyPC PRO\\Documents\\ww\\ppo_sipkop\\db_kas_pemuda\\db_kas_pemuda.csproj": {}
+    "C:\\Users\\MyPC PRO\\source\\repos\\db_kas_pemuda\\db_kas_pemuda\\db_kas_pemuda.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MyPC PRO\\Documents\\ww\\ppo_sipkop\\db_kas_pemuda\\db_kas_pemuda.csproj": {
+    "C:\\Users\\MyPC PRO\\source\\repos\\db_kas_pemuda\\db_kas_pemuda\\db_kas_pemuda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MyPC PRO\\Documents\\ww\\ppo_sipkop\\db_kas_pemuda\\db_kas_pemuda.csproj",
+        "projectUniqueName": "C:\\Users\\MyPC PRO\\source\\repos\\db_kas_pemuda\\db_kas_pemuda\\db_kas_pemuda.csproj",
         "projectName": "db_kas_pemuda",
-        "projectPath": "C:\\Users\\MyPC PRO\\Documents\\ww\\ppo_sipkop\\db_kas_pemuda\\db_kas_pemuda.csproj",
+        "projectPath": "C:\\Users\\MyPC PRO\\source\\repos\\db_kas_pemuda\\db_kas_pemuda\\db_kas_pemuda.csproj",
         "packagesPath": "C:\\Users\\MyPC PRO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MyPC PRO\\Documents\\ww\\ppo_sipkop\\db_kas_pemuda\\obj\\",
+        "outputPath": "C:\\Users\\MyPC PRO\\source\\repos\\db_kas_pemuda\\db_kas_pemuda\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MyPC PRO\\AppData\\Roaming\\NuGet\\NuGet.Config",
