@@ -46,7 +46,6 @@
             label7 = new Label();
             txtCarii = new TextBox();
             dataGridViewanggot = new DataGridView();
-            button2 = new Button();
             groupBox1inputdf.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridViewanggot).BeginInit();
             SuspendLayout();
@@ -55,7 +54,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.DodgerBlue;
+            label1.ForeColor = Color.RoyalBlue;
             label1.Location = new Point(30, 26);
             label1.Name = "label1";
             label1.Size = new Size(116, 21);
@@ -64,7 +63,6 @@
             // 
             // groupBox1inputdf
             // 
-            groupBox1inputdf.Controls.Add(button2);
             groupBox1inputdf.Controls.Add(btnbersih);
             groupBox1inputdf.Controls.Add(btnHapus);
             groupBox1inputdf.Controls.Add(btnUbhh);
@@ -78,6 +76,7 @@
             groupBox1inputdf.Controls.Add(label3);
             groupBox1inputdf.Controls.Add(label2);
             groupBox1inputdf.Font = new Font("Segoe UI", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            groupBox1inputdf.ForeColor = Color.DarkSlateBlue;
             groupBox1inputdf.Location = new Point(38, 70);
             groupBox1inputdf.Name = "groupBox1inputdf";
             groupBox1inputdf.Size = new Size(677, 250);
@@ -205,7 +204,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label6.ForeColor = Color.DodgerBlue;
+            label6.ForeColor = Color.DarkSlateBlue;
             label6.Location = new Point(30, 339);
             label6.Name = "label6";
             label6.Size = new Size(128, 21);
@@ -238,17 +237,6 @@
             dataGridViewanggot.Name = "dataGridViewanggot";
             dataGridViewanggot.Size = new Size(677, 150);
             dataGridViewanggot.TabIndex = 5;
-            // 
-            // button2
-            // 
-            button2.BackColor = Color.FromArgb(0, 192, 192);
-            button2.Font = new Font("Segoe UI Semibold", 9.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            button2.Location = new Point(291, 106);
-            button2.Name = "button2";
-            button2.Size = new Size(95, 39);
-            button2.TabIndex = 12;
-            button2.Text = "Ubah";
-            button2.UseVisualStyleBackColor = false;
             // 
             // Form3
             // 
@@ -291,6 +279,5 @@
         private Label label7;
         private TextBox txtCarii;
         private DataGridView dataGridViewanggot;
-        private Button button2;
     }
 }

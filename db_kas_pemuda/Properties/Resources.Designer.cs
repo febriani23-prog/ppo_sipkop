@@ -63,6 +63,16 @@ namespace db_kas_pemuda.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ChatGPT_Image_14_Agu_2026__11_29_07 {
+            get {
+                object obj = ResourceManager.GetObject("ChatGPT Image 14 Agu 2026, 11.29.07", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap ChatGPT_Image_9_Agu_2026__13_55_19 {
             get {
                 object obj = ResourceManager.GetObject("ChatGPT Image 9 Agu 2026, 13.55.19", resourceCulture);
@@ -103,6 +113,56 @@ namespace db_kas_pemuda.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icon_date_darkslateblue_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("icon_date_darkslateblue_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_iuran_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("icon_iuran_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_jam_darkslateblue_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("icon_jam_darkslateblue_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_kategori_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("icon_kategori_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_laporan_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("icon_laporan_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icon_logout_24x24 {
             get {
                 object obj = ResourceManager.GetObject("icon_logout_24x24", resourceCulture);
@@ -116,6 +176,76 @@ namespace db_kas_pemuda.Properties {
         internal static System.Drawing.Bitmap icon_pemasukan_24x24 {
             get {
                 object obj = ResourceManager.GetObject("icon_pemasukan_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_pemasukan_24x24_1_ {
+            get {
+                object obj = ResourceManager.GetObject("icon_pemasukan_24x24(1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_pemasukan_biru_24x24__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icon_pemasukan_biru_24x24 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_pengaturan_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("icon_pengaturan_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_pengeluaran_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("icon_pengeluaran_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_pengeluaran_biru_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("icon_pengeluaran_biru_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_saldo_kas_biru_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("icon_saldo_kas_biru_24x24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icon_user_24x24 {
+            get {
+                object obj = ResourceManager.GetObject("icon_user_24x24", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
